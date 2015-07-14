@@ -1,7 +1,0 @@
----
-layout: master
----
-
-<!DOCTYPE html><html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" itemscope itemtype="http://schema.org/Person">{% include head.html %}<body class="body"><!--[if lt IE 9]>
-<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-<![endif]--><input id="toggle" type="checkbox"><nav class="nav"><label for="toggle" class="toggle-controller">☰</label><div class="nav-list"><ul class="nav-items">{% for map in site.nav %}<li class="nav-item"><a href="{{ map[1] }}">{{ map[0] }}</a></li>{% endfor %}</ul></div></nav><div class="animation-wrapper"><header class="header"><div class="branding"><a href="{{ site.url }}"><span class="logo"></span></a></div></header><main class="main"><div class="content">{{ content }}{% include scripts.html %}</div></main><footer class="footer"><div class="feed"><a href="/feed.xml"><span class="rss"></span></a></div><p class="copyright">&copy; &nbsp;{{ site.time | date: "%Y" }}<a href="/about">&nbsp; R</a></p></footer></div></body></html>
