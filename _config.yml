@@ -8,7 +8,7 @@ version:                1.0.0
 title:                  Rahul Thakur
 tagline:                MusicBuff, Gamer, Coder
 description:            Personal website of Rahul Thakur
-url:                    http://r.dev
+url:                    http://rahul-rkt.github.io
 ip:                     192.168.2.6 # for local dev with live-reload
 locale:                 en_IN
 timezone:               Asia/Hong_Kong
