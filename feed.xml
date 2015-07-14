@@ -3,10 +3,10 @@
   <channel>
     <title>Rahul Thakur</title>
     <description>Personal website of Rahul Thakur</description>
-    <link>http://rahul-rkt.github.io/</link>
-    <atom:link href="http://rahul-rkt.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 14 Jul 2015 20:55:14 +0800</pubDate>
-    <lastBuildDate>Tue, 14 Jul 2015 20:55:14 +0800</lastBuildDate>
+    <link>http://rahulthakur.me/</link>
+    <atom:link href="http://rahulthakur.me/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 14 Jul 2015 23:14:32 +0800</pubDate>
+    <lastBuildDate>Tue, 14 Jul 2015 23:14:32 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -377,8 +377,8 @@
 
 </description>
         <pubDate>Fri, 03 Jul 2015 00:00:00 +0800</pubDate>
-        <link>http://rahul-rkt.github.io/code-highligting-test-page/</link>
-        <guid isPermaLink="true">http://rahul-rkt.github.io/code-highligting-test-page/</guid>
+        <link>http://rahulthakur.me/code-highligting-test-page/</link>
+        <guid isPermaLink="true">http://rahulthakur.me/code-highligting-test-page/</guid>
         
         
       </item>
@@ -561,8 +561,8 @@
 &lt;/tbody&gt;&lt;/table&gt;
 </description>
         <pubDate>Thu, 02 Jul 2015 00:00:00 +0800</pubDate>
-        <link>http://rahul-rkt.github.io/sytle-test-page-2/</link>
-        <guid isPermaLink="true">http://rahul-rkt.github.io/sytle-test-page-2/</guid>
+        <link>http://rahulthakur.me/sytle-test-page-2/</link>
+        <guid isPermaLink="true">http://rahulthakur.me/sytle-test-page-2/</guid>
         
         
       </item>
@@ -813,8 +813,8 @@
 &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; &lt;em&gt;CodeRay &amp;amp; Gists have default code highlighting scheme. But, Pygments is modelled after what I personally use.&lt;/em&gt;&lt;/p&gt;
 </description>
         <pubDate>Wed, 01 Jul 2015 00:00:00 +0800</pubDate>
-        <link>http://rahul-rkt.github.io/style-test-page-1/</link>
-        <guid isPermaLink="true">http://rahul-rkt.github.io/style-test-page-1/</guid>
+        <link>http://rahulthakur.me/style-test-page-1/</link>
+        <guid isPermaLink="true">http://rahulthakur.me/style-test-page-1/</guid>
         
         
       </item>
