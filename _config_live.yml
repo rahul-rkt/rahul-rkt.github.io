@@ -1,0 +1,85 @@
+# R - Hyper Minimal Jekyll Theme
+# Copyright 2015 Rahul Thakur (r@rahulthakur.me)
+
+
+# Setup
+isLive:                 true # true = live :: false = dev
+version:                1.0.0
+title:                  Rahul Thakur
+tagline:                MusicBuff, Gamer, Coder
+description:            Personal website of Rahul Thakur
+url:                    http://rahulthakur.me
+locale:                 en_IN
+timezone:               Asia/Hong_Kong
+logo:                   /assets/img/logo.png
+
+
+
+# Author Details
+author:
+  name:                 Rahul Thakur
+  avatar_light:         /assets/img/me-light.png
+  avatar_dark:          /assets/img/me-dark.png
+  website:              http://rahulthakur.me
+  email:                r@rahulthakur.me # mailto:{{ site.author.email }}
+  twitter:              _rahulthakur # https://twitter.com/{{ site.author.twitter }}
+  linkedin:             rahulkthakur # https://www.linkedin.com/in/{{ site.author.linkedin }}
+  github:               rahul-rkt # https://github.com/{{ site.author.github }}
+  bitbucket:            _rahulthakur # https://bitbucket.org/{{ site.author.bitbucket }}
+  stackoverflow:        1127443 # https://stackoverflow.com/users/{{ site.author.stackoverflow }}
+  googleplus:           +RahulThakurRKT # https://plus.google.com/{{ site.author.googleplus }}
+  cv:                   /assets/pdf/CV.pages.pdf
+  keywords:             rahul thakur, rahulthakur, rahul, thakur, rkt, dd, catastrophe corporation, catastrophe corp, catcorp, cc, developer, programmer, coder, designer, java, android, php, musicbuff, gamer
+
+
+# Navigation
+nav:
+  work:                 /projects
+  about:                /about
+  blog:                 /archive
+  rss:                  /feed.xml
+
+
+# Analytics and Comments
+google_analytics:       UA-62417983-3
+google_verification:    lH_YbKTfJUHwERczHyXd2AKj_2LlFwiZx6bUCqsrSd8
+bing_verification:      03805AEA078E6A84C402D95910C0D212
+disqus_shortname:       rahulrkt
+
+
+# Post Directives
+future:                 true
+permalink:              /:categories/:title/
+paginate:               1
+
+
+# Dependencies
+markdown:               kramdown
+highlighter:            pygments
+
+kramdown:
+  auto_ids:             true
+  footnote_nr:          1
+  entity_output:        as_char
+  toc_levels:           1..6
+  use_coderay:          true
+
+  coderay:
+    coderay_line_numbers:           nil
+    coderay_line_numbers_start:     1
+    coderay_tab_width:              4
+    coderay_bold_every:             10
+    coderay_css:                    class
+
+
+# Build Directives
+gems:
+  - jekyll-sitemap
+  - bourbon
+  - neat
+
+sass:
+  sass_dir:             _sass
+  style:                compressed
+
+exclude:                [ "css", "vendor", "toolbelt", "public", "Gemfile", "Gemfile.lock", "config.ru", "Guardfile", ".travis.yml", "README.md", "LICENSE" ]

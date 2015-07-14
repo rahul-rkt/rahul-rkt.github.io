@@ -1,0 +1,66 @@
+#toggle
+    display: none
+
+
+.toggle-controller
+    display: none
+
+
+.nav-list
+    // padding: $padding-base 0em
+    top: 0em
+    z-index: 1
+    position: absolute
+    display: block
+    width: 100%
+    .nav-items
+        padding: 0em
+        width: 100%
+        .nav-item
+            font-size: $font-size-large
+            +link-color
+
+
+.animation-wrapper
+    background: $color-white-bright
+    position: absolute
+    z-index: 2
+    top: $padding-base*2.5
+    +animation(drop-nav-bar 0.75s $ease-in-out-expo 1)
+
++keyframes(drop-nav-bar)
+    from
+        +transform(translateY(-$padding-base*2.5))
+    to
+        +transform(translateY(0em))
+
+
++max-screen($display-threshold)
+    .toggle-controller
+        display: block
+        position: relative
+        color: $color-white
+        padding: $padding-base $padding-base 0em 0em
+        text-align: right
+        margin-bottom: 0em
+        cursor: pointer
+
+    .nav-list
+        top: $padding-base*1.25
+
+    #toggle
+        &:checked
+            ~ .animation-wrapper
+                top: $total-nav-items*1.5em + $padding-base*2.5
+                +transition-on(top, $time-duration-long, $ease-in-out-expo)
+
+        &:not(:checked)
+            ~ .animation-wrapper
+                top: $padding-base*2.5
+                // +transition-on($property: top, $func: $ease-in-out-expo)
+
+
++min-screen($display-threshold+1)
+    .nav-item
+        display: inline-block
+        padding: 0 $padding-base

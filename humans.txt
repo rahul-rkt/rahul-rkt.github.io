@@ -1,0 +1,27 @@
+# http://humanstxt.org
+
+
+ ____       _           _   _____ _           _
+|  _ \ __ _| |__  _   _| | |_   _| |__   __ _| | ___   _ _ __
+| |_) / _` | '_ \| | | | |   | | | '_ \ / _` | |/ / | | | '__|
+|  _ < (_| | | | | |_| | |   | | | | | | (_| |   <| |_| | |
+|_| \_\__,_|_| |_|\__,_|_|   |_| |_| |_|\__,_|_|\_\\__,_|_|
+                                                      __  ______
+                                          _________ _/ /_/ ____/___  _________
+                                         / ___/ __ `/ __/ /   / __ \/ ___/ __ \
+                                        / /__/ /_/ / /_/ /___/ /_/ / /  / /_/ /
+                                        \___/\__,_/\__/\____/\____/_/  / .___/
+                                                                      /_/
+
+
+/* MAIN */
+    Developer & Designer:   Rahul Thakur
+    Twitter:                @_rahulthakur
+    Site:                   http://rahulthakur.me
+
+
+/* SITE */
+    Last update:            24 JUN 2015
+    Standards:              HTML5, CSS3
+    Components:             Jekyll, Jade, Bourbon, Neat, jQuery, etc.
+    Software:               Atom, Photoshop, etc.

@@ -1,0 +1,17 @@
+.header
+    position: relative
+    display: block
+
+    .branding
+        .logo
+            +background-image(url(#{$logo-src}))
+            background-size: contain
+            position: absolute
+            display: block
+            +size($logo-dimension)
+            +line-around($logo-dimension)
+            +filter(grayscale(100%))
+            +transition-on(filter -webkit-filter, $time-duration-long, $timing-func)
+
+            &:hover
+                +filter(grayscale(0%))

@@ -1,0 +1,71 @@
+=line-under($color: $color-elements-alt)
+    &:after
+        content: " "
+        display: block
+        border-bottom: $border-size solid $color
+
+
+=line-around($element-dimension, $color: $color-elements-alt)
+    display: inline-block
+    position: relative
+
+    &:before, &:after
+        content: " "
+        position: absolute
+        top: $element-dimension/2
+        width: $line-dimension
+        border-bottom: $border-size solid $color
+
+    &:before
+        right: 100%
+        margin-right: $margin-base
+
+    &:after
+        left: 100%
+        margin-left: $margin-base
+
+
+=transition-on($property, $duration: $time-duration-short, $timing-func: $timing-func)
+    +transition-property($property)
+    +transition-duration($duration)
+    +transition-timing-function($timing-func)
+
+
+=user-select-color($fg: $color-yellow, $bg: $color-black-bright)
+    ::selection
+        color: $fg
+        background: $bg
+
+    ::-moz-selection
+        color: $fg
+        background: $bg
+
+
+=link-color($inactive: $color-elements-alt, $active: $color-elements-special)
+    a
+        color: $inactive
+
+        &:hover, &:focus, &:active
+            color: $active
+
+
+=border-radius($radius: $border-radius)
+    +border-top-radius($radius)
+    +border-right-radius($radius)
+    +border-bottom-radius($radius)
+    +border-left-radius($radius)
+
+
+=code-box($alt-style: false)
+    @if $alt-style
+        background: $color-bg-alt
+        color: $color-fg-special
+    @else
+        background: $color-black
+        color: $color-white
+    border-width: $border-size
+    border-style: solid
+    border-color: $color-elements-alt
+    padding: $padding-medium
+    margin: 0em 0em $margin-medium
+    +border-radius
