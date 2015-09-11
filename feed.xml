@@ -5,12 +5,12 @@
     <description>Personal website of Rahul Thakur</description>
     <link>http://rahulthakur.me/</link>
     <atom:link href="http://rahulthakur.me/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 11 Sep 2015 17:28:49 +0800</pubDate>
-    <lastBuildDate>Fri, 11 Sep 2015 17:28:49 +0800</lastBuildDate>
+    <pubDate>Fri, 11 Sep 2015 22:10:36 +0800</pubDate>
+    <lastBuildDate>Fri, 11 Sep 2015 22:10:36 +0800</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>Code Highligting Test Page</title>
+        <title>Code Highligting</title>
         <description>&lt;p&gt;This is a sample page for testing code highlighting. Examples include some of the most popular programming languages supported by pygments.&lt;/p&gt;
 
 &lt;div class=&quot;highlight&quot;&gt;
@@ -385,7 +385,7 @@
       </item>
     
       <item>
-        <title>Style Test Page HTML</title>
+        <title>HTML Test</title>
         <description>&lt;p&gt;The purpose of this HTML is to help determine what default settings are with R and to make sure that all possible HTML Elements are included in this HTML so as to not miss any possible Elements when designing a site.&lt;/p&gt;
 
 &lt;h1&gt;Headings&lt;/h1&gt;
@@ -569,7 +569,7 @@
       </item>
     
       <item>
-        <title>Style Test Page MD</title>
+        <title>Markdown Test</title>
         <description>&lt;p&gt;This is a sample post. Below are examples of how elements are styled. This document is written purely in Markdown to test styles over generated code after build. For document written in HTML, check Test Page 2.
 &lt;br /&gt;&lt;/p&gt;
 
